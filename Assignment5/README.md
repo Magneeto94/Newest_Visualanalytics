@@ -20,9 +20,8 @@ You'll also need to think about how to get the images into an array for the mode
 
 
 ### Before you run the script
-I have made two test folders, called small_training and small_test, so you are working with way less data (so it is faster.) I can't upload the full data set but you are welcome to upload your own full data set to run it.
-
-The script to resize the data is also included in the src folder if you are interested.
+Look at the cnn-artists.py script in the src folder.
+I was not able to upload the data file, so you will have to upload that on your own. sorry for the inconvinience.
 
 <br>
 "cnn-artists.py" is using the LeNet mothod, while the other scrip in the src folder: "ShallowNet_impressionist.py" are using the ShallowNet method. Just look at the cnn-artists.py file, which also contains arg parses.

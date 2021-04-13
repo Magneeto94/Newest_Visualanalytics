@@ -77,7 +77,7 @@ def main():
     '''
     #Path to training folder with painters
 
-    training_dir = os.path.join("../data/small_training")
+    training_dir = os.path.join("../data/training")
 
     #Names as a string
     label_names = []
@@ -109,7 +109,7 @@ def main():
     #Labels for validation
     #Path to training folder with painters
 
-    validation_dir = os.path.join("../data/small_validation")
+    validation_dir = os.path.join("../data/validation")
 
     #Names as a string
 
@@ -141,7 +141,7 @@ def main():
     ----------------------------Resizing training data:-----------------
     '''
     
-    filepath = os.path.join("../data/small_training")
+    filepath = os.path.join("../data/training")
 
     X_train=[]
 
@@ -168,7 +168,7 @@ def main():
 
     # The path were the images are located
     
-    filepath = os.path.join("../data/small_validation")
+    filepath = os.path.join("../data/validation")
 
     X_test=[]
 
